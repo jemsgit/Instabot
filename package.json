@@ -1,0 +1,23 @@
+{
+  "name": "my_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node ./build/index.js",
+    "tsc": "tsc",
+    "postinstall": "npm run typings",
+    "typings": "typings install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/puppeteer": "^1.12.4",
+    "mailpop3": "^0.1.0",
+    "node-poplib-gowhich": "^1.0.2",
+    "puppeteer": "^1.17.0",
+    "typescript": "^3.4.5"
+  }
+}
